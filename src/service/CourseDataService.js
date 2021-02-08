@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const INSTRUCTOR = 'in28minutes'
-const COURSE_API_URL = 'http://springboot-api.courses.local:8080'
+const COURSE_API_URL = 'http://courses-api.courses.local:8080'
 const INSTRUCTOR_API_URL = `${COURSE_API_URL}/instructors/${INSTRUCTOR}`
 
 class CourseDataService {
