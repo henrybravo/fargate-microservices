@@ -4,7 +4,7 @@ ENV PACKAGE_NAME spring-boot-fullstack-crud-full-stack-with-maven-0.0.1-SNAPSHOT
 
 ENV PACKAGE_HOME /tmp
 
-COPY target/$PACKAGE_NAME $PACKAGE_HOME/
+COPY backend/target/$PACKAGE_NAME $PACKAGE_HOME/
 
 EXPOSE 8080
 
